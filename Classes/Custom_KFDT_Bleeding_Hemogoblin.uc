@@ -1,7 +1,3 @@
-class Custom_KFDT_Bleeding_Hemogoblin extends KFDT_Toxic
-abstract
-hidedropdown;
-
 DefaultProperties
 {
 	KDamageImpulse=0
