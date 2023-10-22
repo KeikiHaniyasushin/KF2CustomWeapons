@@ -8,14 +8,14 @@ static function string GetItemName()
 
 static function string GetItemDescription()
 {
-	return "*DoT type: Bleeding -> Toxic" $
+	return "*DoT type: Bleeding -> Disabled" $
 	"\n*Stumble power: 200 -> 130" $
 	"\n*Attack speed modifier: -25% -> 0%" $
 	"\n*Move speed modifier: -30% -> -20%" $
 	"\n*Damage modifier: -30% -> 0%" $
 	"\n*Stats change: 5s -> forever" $
 	"\n==== Note ====" $
-	"\nThis version of hemogoblin was mainly created to fix glitch that occurs with normal hemogoblin where raged zeds affected by DOT_Bleeding couldn't get decapped for 5 seconds after death";
+	"\nThis version of hemogoblin was mainly created to fix glitch that occurs with normal hemogoblin where raged zeds affected by DOT_Bleeding couldn't get decapped for 5 seconds after death. Toxic damage crash fixed by Keiki";
 }
 
 static function string GetItemLocalization(string KeyName)
